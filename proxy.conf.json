@@ -1,0 +1,12 @@
+{
+  "/auth": { "target": "http://localhost:8080", "secure": false },
+  "/ies": { "target": "http://localhost:8080", "secure": false },
+  "/centros-academicos": { "target": "http://localhost:8080", "secure": false },
+  "/cursos": { "target": "http://localhost:8080", "secure": false },
+  "/docentes": { "target": "http://localhost:8080", "secure": false },
+  "/discentes": { "target": "http://localhost:8080", "secure": false },
+  "/disciplinas": { "target": "http://localhost:8080", "secure": false },
+  "/historico": { "target": "http://localhost:8080", "secure": false },
+  "/monitorias": { "target": "http://localhost:8080", "secure": false },
+  "/relatorio-monitoria": { "target": "http://localhost:8080", "secure": false }
+}

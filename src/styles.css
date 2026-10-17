@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.titulo { font-size: 1.25rem; font-weight: 700; border-bottom: 1px solid #e5e7eb; padding-bottom: .5rem; margin-bottom: 1rem; }
+.cartao { background: #fff; padding: 1.25rem; border-radius: .25rem; box-shadow: 0 1px 3px rgba(0, 0, 0, .15); }
+.form-box { background: #f3f4f6; border-left: 4px solid #2563eb; padding: 1rem; margin-bottom: 1.25rem; }
+.grade { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: .75rem; }
+.rotulo { display: block; font-size: .75rem; font-weight: 700; margin-bottom: .15rem; color: #374151; }
+.campo { display: block; width: 100%; border: 1px solid #d1d5db; padding: .4rem .5rem; border-radius: .25rem; background: #fff; color: #111827; font-size: .875rem; }
+.rolagem { overflow-x: auto; }
+.tabela { width: 100%; border-collapse: collapse; text-align: left; font-size: .8125rem; }
+.tabela th, .tabela td { border: 1px solid #d1d5db; padding: .5rem; vertical-align: top; }
+.tabela th { background: #e5e7eb; }
+.vazio { text-align: center; padding: 1rem; color: #6b7280; }
+.btn { display: inline-block; padding: .35rem .75rem; margin-right: .25rem; border: 0; border-radius: .25rem; color: #fff; font-size: .8125rem; cursor: pointer; }
+.btn:hover { filter: brightness(.92); }
+.btn-azul { background: #2563eb; }
+.btn-vermelho { background: #ef4444; }
+.btn-verde { background: #16a34a; }
+.btn-cinza { background: #6b7280; }
+.btn-claro { background: #e5e7eb; color: #111827; }
+.ativo { color: green; font-weight: 700; }
+.inativo { color: red; font-weight: 700; }
+.finalizada { color: #1d4ed8; font-weight: 700; }
+.aviso { padding: .75rem; margin-bottom: 1rem; border-left: 4px solid; font-size: .875rem; }
+.aviso-erro { background: #fee2e2; border-color: #ef4444; color: #991b1b; }
+.aviso-ok { background: #dcfce7; border-color: #16a34a; color: #166534; }
+.abas { display: flex; flex-wrap: wrap; gap: .25rem; margin-bottom: .75rem; }
+.aba { padding: .5rem 1rem; border: 0; border-radius: .25rem; background: #e5e7eb; color: #111827; font-size: .875rem; cursor: pointer; }
+.aba-ativa { background: #2563eb; color: #fff; font-weight: 700; }
